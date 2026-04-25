@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.h5
+*.pkl
+*.onnx
+
+# Node
+node_modules/
+dist/
+.cache/
+
+# DB
+*.db
+*.sqlite3
+
+# Env
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

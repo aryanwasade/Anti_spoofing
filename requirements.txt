@@ -1,0 +1,27 @@
+# Core
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+websockets>=12.0
+python-multipart>=0.0.9
+
+# Database
+sqlalchemy>=2.0.30
+aiosqlite>=0.20.0
+
+# CV & AI
+opencv-python>=4.9.0.80
+mediapipe>=0.10.30
+numpy>=1.26.4
+scipy>=1.13.0
+scikit-learn>=1.4.2
+Pillow>=10.3.0
+
+# Deep Learning (optional - for CNN spoof model training)
+# tensorflow>=2.15.0  # Uncomment if you have GPU + want to train CNN
+
+# Utilities
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-dotenv>=1.0.1
+pydantic>=2.7.1
+pydantic-settings>=2.2.1
